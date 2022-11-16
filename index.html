@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8ee3dd930.js"></script>
+    <link rel="stylesheet" href="./stylesheet/index.css">
+    <title>E2 PIZZAS</title>
+</head>
+
+<body>
+    <div id="listadoPizzas" style="text-align: center;">
+        <div>
+            <div class="card">
+                <h2>Elegi tu pizza</h2>
+                <img id="imgPizza" src="" alt="Avatar" style="width:30%">
+                <div class="container">
+                    <p>Pizza: <span class="texts" id="nombrePizza"> </span></p>
+                    <p>Ingredientes: <span class="texts" id="ingredientesPizza"></span></p>
+                    <p>Precio: <span class="texts" id="precioPizza"></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <input type="number" value="" id="valueId" min="0">
+            <button id="buscar-pizza" onclick="buscarPizza()" type="button">Buscar</button>
+        </div>
+        <p id="inputVacio"> </p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
